@@ -36,6 +36,3 @@ Throughout my journey, I will create and upload **mini projects** to reinforce m
 
 🛠 **Feel free to follow my journey and explore my projects!** 😊  
 
----
-
-Let me know if you want any modifications! 🚀
