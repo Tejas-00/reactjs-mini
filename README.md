@@ -1,4 +1,4 @@
-### **React Learning Journey 🚀**  
+# **React Learning Journey 🚀**  
 
 Welcome to my **React.js Learning Repository**! This is where I will document everything I learn about **React.js**, along with the **mini projects** I build along the way.  
 
