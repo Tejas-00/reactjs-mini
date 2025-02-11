@@ -1,6 +1,6 @@
 import profilePic from './assets/reactCardCompProfPic.jpg';
 
-export function Card() {
+export default function Card() {
     return (
         <div className="card">
             <img src= { profilePic } alt="Profile Picture" />
