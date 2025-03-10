@@ -15,7 +15,7 @@ Student.propTypes = {
     isStudent: propType.bool
 }
 Student.defaultProps = {
-    name: 'Guest',
+    name: "Guest",
     age: 0,
-    isStudent: false
+    isStudent: false,
 }
