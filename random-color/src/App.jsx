@@ -15,7 +15,7 @@
 //     * `onClick` handlers on the buttons update the state or call the color generation functions.
 
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 
 function App() {
@@ -42,6 +42,15 @@ function App() {
     console.log(rgb);
     setColor(rgb);
   }
+
+  useEffect(() => {
+    if (typeOfColor === 'hex') {
+      handleCreateRandomHexColor();
+    } else {
+      handleCreateRandomRgbColor();
+    }
+  }
+  , [typeOfColor]);
 
   return (
     <div className='container' style={{ backgroundColor: color}}>
